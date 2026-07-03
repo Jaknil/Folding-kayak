@@ -61,7 +61,7 @@ We take up the work in August!
 - Make a seat v2.3 for kayak 1, and give the used kayak 1 seat inlay v2.2 to kayak 4, test both kayaks. This should give good data both ways. 
 - Paint and crease kayak 5 main body 
 - Make and a seat for kayak 5, v2.3 or v2.2 depending on data from test.
-- Test autocreaser
+- Test [autocreaser](autocreaser.md)
 - Find and test a folding beach chair without legs as a pilots seat to give back support. The PHOXX ones with inflateable seats looked promising but seems to be discontinued. Similiar product: [Falkeberg Ground Chair](./Images/ground_chair.JPG)
 - Document our cresing adn folding process with pictures
 - Document fasteners and crease rollers
