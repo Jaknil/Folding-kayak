@@ -58,7 +58,6 @@ Three has been made and tested so far!
 
 We take up the work in August!
 
-- Document auto-creasing tool
 - Make a seat v2.3 for kayak 1, and give the used kayak 1 seat inlay v2.2 to kayak 4, test both kayaks. This should give good data both ways. 
 - Paint and crease kayak 5 main body 
 - Make and a seat for kayak 5, v2.3 or v2.2 depending on data from test.
