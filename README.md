@@ -14,6 +14,8 @@ It is possible to fold a kayak from a plastic sheet that is ultralight and packs
 
 It packs up to approximately 1220x500x50mm and weighs 3kg total without paddles.
 
+![Assembly](./Images/assembly.jpg)
+
 Packing up or down took around 15 minutes each for my first time, [the inventor can assemble his in 4 min!](https://www.instagram.com/p/DQYdUIIiCEW/)
 
 ## Who? Where?
