@@ -1,7 +1,7 @@
 # Sheet metal approximation of corrugated plastic sheet in Fusion360
 
 ### Motivation
-We wanted a more robus way to quickly visualise and generate "correct enough" drawings for new designs of the [folding kayaks.](./README.md)
+We wanted a more robust way to quickly visualise and generate "correct enough" drawings for new designs of the [folding kayaks.](./README.md)
 
 ![Sheet metal model of kayak](./Images/Crease_bend_analysis/sheet_metal_model_folded.jpg)
 

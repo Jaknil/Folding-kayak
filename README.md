@@ -10,27 +10,26 @@ It is possible to fold a kayak from a plastic sheet that is ultralight and packs
 
 ![Jakob holding a packed and a folded kayak](./Images/packed_folded.jpg)
 
-![Dimensions folded](./Images/dimensions_folded.jpg)
-
-It packs up to approximately 1220x500x50mm and weighs 3kg total without paddles.
-
 ![Assembly](./Images/assembly.jpg)
 
-Packing up or down took around 15 minutes each for my first time, [the inventor can assemble his in 4 min!](https://www.instagram.com/p/DQYdUIIiCEW/)
+It packs up to approximately 1220x500x50mm (left picture) and weighs 3kg total without paddles. Packing up or down took around 15 minutes each for my first time, [the inventor has the record with a 4 min assembly!](https://www.instagram.com/p/DQYdUIIiCEW/)
+
+![Dimensions folded](./Images/dimensions_folded.jpg)
 
 ## Who? Where?
 We are a group of five Makers based in Oslo Norway attempting to make, improve and share Aslags fantastic kayak design! 
 
 We are working out of the shared workshop [Fellesverkstedet](https://www.fellesverkstedet.no/) and they have been incredibly helpful in procuring the materials needed for the project. We are also making use of Norways biggest Makerspace: [Bitraf](https://bitraf.no/), for 3D -printing the fasteners.
 
+![The crew working on version 2.2](./Images/workshop.jpg)
 
 ### Production status
 
-We are attempting to make 5 kayaks out of 9 sheets of polypropylene
+We are attempting to make 5 kayaks out of 9 sheets of polypropylene.
 
 | Sheet | Use | Status |
 | ----- | --- | ------ |
-| 1     |Seat for Kayak 1 + test| Used up |
+| 1     |Seat for Kayak 1 + test| Done |
 | 2     |Kayak 1 v2.2| Done |
 | 3     |Kayak 2 v2.2| Done |
 | 4     |Kayak 3 v2.2| Done |
@@ -45,6 +44,10 @@ Sheet 9 options:
 - Opgrade to Seat v2.3 for kayak4 if needed 
 - Other details, like triangles for under the pilot seat.
 
+Three has been made and tested so far!
+
+![Testing the first three kayaks](./Images/kayaks1-3.jpg)
+
 ### BOM:
 - 2440mm x 1220mm fluted / internally corrugated polypropylene sheet - 4mm thickness 700g/m^2 - 1.5pcs / Kayakk ([Antalis supplier](https://www.antalis.no/eshop/medier-og-utstyr-for-visuell-kommunikasjon/plater/kanalplast-pp-pdp-hq08108/sku-694530#))
 - M5 hex head screws 30mm length - About 20pcs
@@ -55,7 +58,6 @@ Sheet 9 options:
 
 We take up the work in August!
 
-- Document water tests 
 - Document auto-creasing tool
 - Make a seat v2.3 for kayak 1, and give the used kayak 1 seat inlay v2.2 to kayak 4, test both kayaks. This should give good data both ways. 
 - Paint and crease kayak 5 main body 
@@ -78,6 +80,8 @@ We take up the work in August!
 ## Version 3
 
 Is under delvelopment using a sheet metal model, see [tests for establishing k-value and new approximated sheetmetal model](sheet_metal_theory.md)
+
+Hopefully will be tested with the new [auto-creasing tool](autocreaser.md) for the shopbot CNC.
 
 ## Version 2.3
 
@@ -107,6 +111,17 @@ PDF in work!
 
 [DXF kayak main file v2.3](./Router-plot-DXF/Brettekayak_JR_v2.3.dxf)
 
+
+## Version 2.25
+
+This is using a v2.2 kayak main body and a v2.3 seat inlay.
+
+### Test results and impressions
+
+- The seat inlay v2.3 was a success! It stopped most of the inversions that v.2.2 suffered from. We don't know if this more complicated seat is strictly neccessary for version 2.3 kayaks but it gives more strength than 2.2 so it doesn't hurt.
+- The ergonomics is still somewhat lacking. A backrest would be very nice for any longer trips. We have not tested the beach chair solution yet.
+- The sides are rather high and wide, they can be pulled in front of the pilot to give better room to paddle. 
+- The pilot has to sit almost in the very middle of the kayak with their feet in the tip for the kayak to float level in the water. There is room for improvement! We consider a more almond shaped design for version 3.0 with a wider back and narrow front. 
 
 ## Version 2.2
 
