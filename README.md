@@ -29,12 +29,12 @@ We are attempting to make 5 kayaks out of 9 sheets of polypropylene
 | Sheet | Use | Status |
 | ----- | --- | ------ |
 | 1     |Seat for Kayak 1 + test| Used up |
-| 2     |Kayak 1 v2.2| Used up |
-| 3     |Kayak 2 v2.2| Creased and (over?)cut |
-| 4     |Kayak 3 v2.2| Creased and cut |
-| 5     |Kayak 4 v2.2| Painted, convert to v2.3! |
+| 2     |Kayak 1 v2.2| Done |
+| 3     |Kayak 2 v2.2| Done |
+| 4     |Kayak 3 v2.2| Done |
+| 5     |Kayak 4 v2.3| Creased and cut |
 | 6     |Kayak 5 v2.3| Reserved, not started |
-| 7     |Seats for 2-3 v2.3| Reserved, not started |
+| 7     |Seats for 2-3 v2.3| Done |
 | 8     |Seats for 4-5 v2.3| Reserved, not started |
 | 9     | Spare|   |
 
@@ -51,13 +51,14 @@ Sheet 9 options:
 
 # Todo
 
-- Print more fasteners for all kayaks!
-- Fold and bolt kayaks 2 & 3 main bodies that are already creased to v2.2 specifications
-- Make seat-inlays v2.3 for finsihed kayak bodies to amend inversion problems
-- Adjust painted lines and crease kayak 4 to v 2.3 specifications: "pack up" lines should be moved.
+We take up the work in August!
+
+- Document water tests 
+- Document auto-creasing tool
 - Make a seat v2.3 for kayak 1, and give the used kayak 1 seat inlay v2.2 to kayak 4, test both kayaks. This should give good data both ways. 
 - Paint and crease kayak 5 main body 
 - Make and a seat for kayak 5, v2.3 or v2.2 depending on data from test.
+- Test autocreaser
 - Find and test a folding beach chair without legs as a pilots seat to give back support. The PHOXX ones with inflateable seats looked promising but seems to be discontinued. Similiar product: [Falkeberg Ground Chair](./Images/ground_chair.JPG)
 - Document our cresing adn folding process with pictures
 - Document fasteners and crease rollers
@@ -94,7 +95,9 @@ The version we are currently making.
 
 ### Drawings
 
-![New seat design](./Drawings/seat_v2.3_manual.jpg)
+PDF in work!
+
+[JPG Seat v2.3](./Drawings/seat_v2.3_tested.jpg)
 
 [PDF Brettekajakk v2.3 pack_up lines only](./Drawings/Brettekajakk_pack_up_lines_v2.3.pdf)
 
