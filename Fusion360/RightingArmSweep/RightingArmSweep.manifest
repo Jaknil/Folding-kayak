@@ -1,0 +1,13 @@
+{
+    "autodeskProduct": "Fusion360",
+    "type": "addin",
+    "id": "RightingArmSweep",
+    "author": "You",
+    "description": {
+        "": "Sweeps a chosen parameter across a range, running Mass Goal Seek's solver at each step, and logs world-space center of mass X into a merged CSV with a user-named column per run."
+    },
+    "version": "1.0.0",
+    "runOnStartup": true,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}

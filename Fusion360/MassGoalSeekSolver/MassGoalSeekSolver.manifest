@@ -1,0 +1,13 @@
+{
+    "autodeskProduct": "Fusion360",
+    "type": "addin",
+    "id": "MassGoalSeekSolver",
+    "author": "You",
+    "description": {
+        "": "Adjusts a parameter until a target body reaches a target mass, using a secant solver. Remembers the last parameter/body per document and last-used tolerance/step/iterations."
+    },
+    "version": "1.0.0",
+    "runOnStartup": true,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}
