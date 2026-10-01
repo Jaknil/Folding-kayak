@@ -67,6 +67,11 @@ We take up the work in August!
 - Document fasteners and crease rollers
 - Develop version 3.0 of the folding kayak 
 
+## Research
+
+- A sheet metal model was developed, see [tests for establishing k-value and new approximated sheetmetal model](sheet_metal_theory.md)
+- An [auto-creasing tool](autocreaser.md) has been tested.
+
 ## Folding strategy
 
 1. Mark where you want to fold your sheet
@@ -78,9 +83,28 @@ We take up the work in August!
 
 ## Version 3
 
-Is under delvelopment using a sheet metal model, see [tests for establishing k-value and new approximated sheetmetal model](sheet_metal_theory.md)
+Not tested full size yet!
 
-Hopefully will be tested with the new [auto-creasing tool](autocreaser.md) for the shopbot CNC.
+![Version 3 kayak](Images/kayak_folded_a4_v3.jpg)
+
+- [PDF drawing for A4 models](Drawings/V3_1Oct_double_top.pdf)
+
+![Version 3 kayak](Images/v3_simple.jpg)
+
+- [3D-model, web view](https://a360.co/4iS6Kz8) Including a comparison with v2 and a righting arm analysis setup
+
+![Version 3 kayak](Fusion360/RightingArmSweep_v2_v3_solo_microbootlegger.png)
+
+Righting arm vs Heel angle plot for different loads. Centre of gravity 254mm (10in = standard pilot assumption) + 30mm (assumed seat height) above keel.
+
+- [Graph data CSV](Fusion360/TestData_v3_comp.csv)
+- [Graph data Excel](Fusion360/RightingArmSweep_cleaned_plotted.xlsx)
+- [Kayak stability therory](https://guillemot-kayaks.com/kayak-stability)
+- [Solo Microbootlegger kayak](https://guillemot-kayaks.com/catalog/strip-built/recreational-kayak-solo/solo-microbootlegger) used as comparision
+
+![Version 3 kayak](Fusion360/Righting_moment_v3.png)
+
+- [DXF for auto creasing](Drawings/Simple_pattern_v3_top_lines.dxf)
 
 ## Version 2.3
 
