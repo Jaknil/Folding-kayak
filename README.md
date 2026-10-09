@@ -101,6 +101,16 @@ Making the Kayaks:
 
 - A sheet metal model was developed, see [tests for establishing k-value and new approximated sheetmetal model](sheet_metal_theory.md)
 - An [auto-creasing tool](autocreaser.md) is being developed.
+- Test alternative sheets designs to the channeled one
+
+
+## Alternative sheet test
+
+- [Akyprint smooth 3.3mm 900g/m from VINK](https://vink.no/media/import/NO_Akyprint_Brosjyre.pdf), works great in small scale test!
+
+![Standard heat crease and demo cut](Images/akyprint900.jpg)
+
+[See autocreaser for more tests](autocreaser.md)
 
 ## Todo
 
