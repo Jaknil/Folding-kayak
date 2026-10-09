@@ -158,7 +158,14 @@ Not tested on paper, looks ok in old cad model that I don't trust completely.
 
 [DXF for autocrease](Drawings/dxf-main_v2.4.dxf)
 
-Remember to add double lines 6.7mm for double folds
+Remember to add double lines 6.7mm c-c for double folds!
+
+Double crease all double folds:
+- All pack up lines except the double ones in the middle
+- All backside lines (4 flaps on sides and 2 on the points)
+- Consider double folding armrests
+- If time, test wider armrests
+
 
 ### Change log 
 - The front is shorter to accomodate better pack up lines, also increases stability
