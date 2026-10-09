@@ -152,9 +152,22 @@ Righting arm vs Heel angle plot for different loads. Centre of gravity 254mm (10
 
 # Version history and test log
 
+## Version 2.4
+
+Not tested on paper, looks ok in old cad model that I don't trust completely.
+
+[DXF for autocrease](Drawings/dxf-main_v2.4.dxf)
+
+Remember to add double lines 6.7mm for double folds
+
+### Change log 
+- The front is shorter to accomodate better pack up lines, also increases stability
+- It's 50mm wider and 25mm lower than 2.3, making it more stable.
+
+
 ## Version 2.3
 
-The version we are currently making.
+We made one or two of this main body but had seat inlays from v2.2, so no full v2.3 exist.
 
  These tweaks aim to stiffen the kayak further and avoid the innvards collapses. 
  
@@ -162,10 +175,9 @@ The version we are currently making.
  
 ### Change log 
 
-- Extend the seat-inlay to use half a full sheet of polypropylene 1220X1220 = more bending, lots more dimensjons
-- Move the "pack up lines" to intersect with other lines. 
+- Extend the seat-inlay to use half a full sheet of polypropylene 1220X1220 = more bending, but creates lots more dimentions
+- Move all the "pack up lines" to intersect with other lines. 
 - Slope the cockpit sides innward to make the bends sharper in the nose and rear. This means cutting more from the corners, how much? Freehand? possibly not needed? Can we achieve the same thing some other way?
-
 
 ### Drawings
 
@@ -175,7 +187,7 @@ PDF in work!
 
 [PDF Brettekajakk v2.3 pack_up lines only](./Drawings/Brettekajakk_pack_up_lines_v2.3.pdf)
 
-[DXF seat v2.3](./Router-plot-DXF/Seat_v2.3_DXF.dxf)
+[DXF seat v2.3](./Router-plot-DXF/Seat_v2.3_DXF.dxf) OBS! Error! one dimension is inncorrect. See JPG for correction
 
 [DXF kayak main file v2.3](./Router-plot-DXF/Brettekayak_JR_v2.3.dxf)
 
@@ -195,6 +207,7 @@ This is using a v2.2 kayak main body and a v2.3 seat inlay.
 - The sides are rather high and wide, they can be pulled in front of the pilot to give better room to paddle. 
 - The pilot has to sit almost in the very middle of the kayak with their feet in the tip for the kayak to float level in the water. There is room for improvement! We consider a more almond shaped design for version 3.0 with a wider back and narrow front. 
 - [We have taped up the open edges of the sheet with silver-tape.](Images/taped.jpg) It can give it around 10 liters of trapped air for lift in an emergency and reduce cuts and scrapes. Especially on the sides of the cockpit.
+
 
 ## Version 2.2
 
@@ -227,7 +240,7 @@ June 22 2026 - Jakob Rockenberger at Vesletjern
 
 ### Drawings 
 
-This is the drawing for version 2.3. Solid modeld recreated in Fusion360 by Jakob from Aslags drawings. 
+This is the drawing for our version 2.3. based on a model recreated in Fusion360 by Jakob from Aslags drawings. 
 
 [![Interactive 3D-model of the v2.2 kayakk](./Images/3d-model.jpg)](https://a360.co/4fWsus3)
 
@@ -239,7 +252,6 @@ This is the drawing for version 2.3. Solid modeld recreated in Fusion360 by Jako
 
 ## Folding Kayak Aslagstyle - Brettekajakk Aslagstyle v1.0 and V2.0
 Invented by [Aslag Guttormsgaard](https://www.instagram.com/aslagsbrettekajakk/) and shared with the public at [Oslo Skaperfestival 25. - 26. oktober 2025](https://deichman.no/aktuelt/oslo-skaperfestival-2025_D67nCl3o7T) ([Alt. link](https://skaperfestivalen.no/)). Attendies could fold their own mini kayaks from printouts on A4 paper. Aslag exibited his model 1 and 2 at the festival.
-
 
 ![Model 1 and 2 at the Oslo Maker festival in 2025](./Images/model1-2_maker-festival.jpg)
 
