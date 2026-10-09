@@ -4,9 +4,9 @@ Build logs and instructions for making your folded origami kayaks from sheet of 
 
 ![Aslag Guttormsgaard at Oslo Maker festival Deichman 2025, image from aslagsbrettekajakk on Instagram](./Images/Aslag_Maker_festival.jpg)![Aslag Guttormsgaard on Koster, image from aslagsbrettekajakk on Instagram](./Images/Aslag_test.jpg)
 
-# Description
+# What is it?
 
-It is possible to fold a kayak from a plastic sheet that is ultralight and packs up to a flat package. Read on to learn how.
+A do it yourself kayak, made from a plastic sheet that is ultralight and packs up to a flat package. Read on to learn how.
 
 ![Jakob holding a packed and a folded kayak](./Images/packed_folded.jpg)
 
@@ -16,16 +16,36 @@ It packs up to approximately 1220x500x50mm (left picture) and weighs 3kg total w
 
 ![Dimensions folded](./Images/dimensions_folded.jpg)
 
+# But does it work?
+
+Yes! We have made five thus far and tested them. The different versions have different quirks and fixes, see version log for details.
+
+![Testing the first three kayaks](./Images/kayaks1-3.jpg)
+
+Tests at Paradisbukta and Østmarka, Oslo 2026.
+
+![Herbern trip](Images/2plus3.jpg)
+
+Restaurant trip to Lille Herbern, Oslo 2026.
+
+![Father and son](./Images/jakob_and_son.jpg)
+
+1-2 kids on board as ballast has been found to improve stablity
+
+[![](Images/youtube.jpg)](https://youtu.be/oQs99TTAEPQ?si=FxAfOIfxH4dqbu4J)
+
+[First test video on Youtube](https://youtu.be/oQs99TTAEPQ?si=FxAfOIfxH4dqbu4J)
+
 ## Who? Where?
 We are a group of five Makers based in Oslo Norway attempting to make, improve and share Aslags fantastic kayak design! 
 
-We are working out of the shared workshop [Fellesverkstedet](https://www.fellesverkstedet.no/) and they have been incredibly helpful in procuring the materials needed for the project. We are also making use of Norways biggest Makerspace: [Bitraf](https://bitraf.no/), for 3D -printing the fasteners.
+We are working out of the shared workshop [Fellesverkstedet](https://www.fellesverkstedet.no/) and they have been incredibly helpful in procuring the materials needed for the project. 
 
-![The crew working on version 2.2](./Images/workshop.jpg)
+We are also making use of Norways biggest Makerspace: [Bitraf](https://bitraf.no/), for 3D -printing the fasteners.
 
-### Production status
+### Production log 
 
-We are attempting to make 5 kayaks out of 9 sheets of polypropylene.
+We have made make 5 kayaks out of 8 sheets of polypropylene. Updated 09.102.2026
 
 | Sheet | Use | Status |
 | ----- | --- | ------ |
@@ -33,57 +53,70 @@ We are attempting to make 5 kayaks out of 9 sheets of polypropylene.
 | 2     |Kayak 1 v2.2| Done |
 | 3     |Kayak 2 v2.2| Done |
 | 4     |Kayak 3 v2.2| Done |
-| 5     |Kayak 4 v2.3| Creased and cut |
-| 6     |Kayak 5 v2.3| Reserved, not started |
+| 5     |Kayak 4 v2.3| Done |
+| 6     |Kayak 5 v2.3| Done |
 | 7     |Seats for 2-3 v2.3| Done |
-| 8     |Seats for 4-5 v2.3| Reserved, not started |
-| 9     | Spare|   |
+| 8     |Seats for 4-5 v2.3| Done |
+| 9     | Spare| Planned autocrease experiment  |
 
-Sheet 9 options:
-- Spare kayak if one goes bad. 
-- Opgrade to Seat v2.3 for kayak4 if needed 
-- Other details, like triangles for under the pilot seat.
+Sheet 9 will be used to test the [autocreaser](autocreaser.md) 
 
-Three has been made and tested so far!
+## How to make folded kayaks
 
-![Testing the first three kayaks](./Images/kayaks1-3.jpg)
+![The crew working on version 2.2](./Images/workshop.jpg)
 
-### BOM:
-- 2440mm x 1220mm fluted / internally corrugated polypropylene sheet - 4mm thickness 700g/m^2 - 1.5pcs / Kayakk ([Antalis supplier](https://www.antalis.no/eshop/medier-og-utstyr-for-visuell-kommunikasjon/plater/kanalplast-pp-pdp-hq08108/sku-694530#))
-- M5 hex head screws 30mm length - About 20pcs
-- M5 nuts - About 20pcs
-- Filament for 3D printing lock washers
+### Bill of materials, per kayak:
+- 1.5pcs of 2440mm x 1220mm fluted / internally corrugated polypropylene sheet - 4mm thickness 700g/m^2 - 1.5pcs / Kayakk ([Antalis supplier](https://www.antalis.no/eshop/medier-og-utstyr-for-visuell-kommunikasjon/plater/kanalplast-pp-pdp-hq08108/sku-694530#))
+- 14pcs of M6 hex head screws 30mm length 
+- 14pcs of M6 nuts
+- Filament for 3D printing 28 lock washers (we used PLA) 
+- Gaffa tape for temporary assembly
 
-# Todo
+### Tools:
+- 3D-printer for printing lock washers
+- Exacto knife for cutting plastic
+- A pen and a ruler or a large CNC for marking the sheets
+- Hot air gun, preferably one that can be set to 150C
+- Hand held roller, Ø5-10mm wide ca Ø30mm diameter. Can be laser cut, 3D-printed or made from scrap. [Rihno files](Lasercut-creasing-tool/CreasingToolv1.3dm)
+- Handheld drill and a Ø6-7mm drill bit
 
-We take up the work in August!
+### Methodology
 
-- Make a seat v2.3 for kayak 1, and give the used kayak 1 seat inlay v2.2 to kayak 4, test both kayaks. This should give good data both ways. 
-- Paint and crease kayak 5 main body 
-- Make and a seat for kayak 5, v2.3 or v2.2 depending on data from test.
-- Test [autocreaser](autocreaser.md)
-- Find and test a folding beach chair without legs as a pilots seat to give back support. The PHOXX ones with inflateable seats looked promising but seems to be discontinued. Similiar product: [Falkeberg Ground Chair](./Images/ground_chair.JPG)
-- Document our cresing adn folding process with pictures
-- Document fasteners and crease rollers
-- Develop version 3.0 of the folding kayak 
+Preparations:
+1. 3D-Print all the lock washers (print a test one first)
+2. Push the screws and nuts into the 3D-prints 
 
-## Research
+Making the Kayaks:
+1. Find a large open space to work in. 4m x 2m minimum.
+1. Mark where you want to cut and fold your sheet
+1. [Cut the small pieces away](Images/cut.jpg)
+2. [Heat the plastic locally to 150C using the hot air gun and](Images/crease.jpg)
+3. [Create creases along the lines using a roller](Images/crease.jpg) 
+4. Use a board or something stiff under the sheet when you first it, to help establish straight folds
+5. [Youtube video: Shape the kayak and fix it in place using gaffa tape](https://youtube.com/shorts/2akg2EgOliQ)
+6. Drill the holes for the screws
+8. Use the screws and nuts with the 3D printed lock washers to assemble the whole kayak
+
+# Research
 
 - A sheet metal model was developed, see [tests for establishing k-value and new approximated sheetmetal model](sheet_metal_theory.md)
-- An [auto-creasing tool](autocreaser.md) has been tested.
+- An [auto-creasing tool](autocreaser.md) is being developed.
 
-## Folding strategy
+## Todo
 
-1. Mark where you want to fold your sheet
-2. Heat the plastic to 150C
-3. Crease it with a wooden roller, aproximatly 10 mm wide, Ø30mm with rounded edges.
-4. Use a board or something stiff under the sheet when you lift it, to help get straight folds
+- Test [autocreaser](autocreaser.md) in CNC
+- Test out low seats with backs like [Falkeberg Ground Chair](./Images/ground_chair.JPG)
+- Develop version 3.0 of the folding kayak 
 
-# Version history and test log
+## Version 3 - Under development
 
-## Version 3
+Change log
+- Introduces more angles to the first pack up lines, makes a rounder more complex shape. 
 
-Not tested full size yet!
+Next step:
+- Make new paper tests 
+
+Only tested in paper.
 
 ![Version 3 kayak](Images/kayak_folded_a4_v3.jpg)
 
@@ -104,7 +137,10 @@ Righting arm vs Heel angle plot for different loads. Centre of gravity 254mm (10
 
 ![Version 3 kayak](Fusion360/Righting_moment_v3.png)
 
-- [DXF for auto creasing](Drawings/Simple_pattern_v3_top_lines.dxf)
+- [DXF pattern](Drawings/Simple_pattern_v3_top_lines.dxf)
+
+
+# Version history and test log
 
 ## Version 2.3
 
@@ -113,8 +149,7 @@ The version we are currently making.
  These tweaks aim to stiffen the kayak further and avoid the innvards collapses. 
  
  - This update tries out several things, possibly overcomplicating the design. Some of these fixes might be enough on their own. 
- - We should tape up the open edges of the sheet with silver-tape. It will give it around 10 liters of trapped air for lift in an emergency and reduce cuts and scrapes. Especially on the sides of the cockpit.
-
+ 
 ### Change log 
 
 - Extend the seat-inlay to use half a full sheet of polypropylene 1220X1220 = more bending, lots more dimensjons
@@ -135,6 +170,10 @@ PDF in work!
 [DXF kayak main file v2.3](./Router-plot-DXF/Brettekayak_JR_v2.3.dxf)
 
 
+### 3D-prints
+- [1pcs-Lock-washers-folding-kayak-M6-Screw-holder.3mf](3D-print-3MF/1pcs-Lock-washers-folding-kayak-M6-Screw-holder.3mf)
+- [28pcs-Lock-washers-folding-kayak-M6-Screw-holder.3mf](3D-print-3MF/28pcs-Lock-washers-folding-kayak-M6-Screw-holder.3mf)
+
 ## Version 2.25
 
 This is using a v2.2 kayak main body and a v2.3 seat inlay.
@@ -145,6 +184,7 @@ This is using a v2.2 kayak main body and a v2.3 seat inlay.
 - The ergonomics is still somewhat lacking. A backrest would be very nice for any longer trips. We have not tested the beach chair solution yet.
 - The sides are rather high and wide, they can be pulled in front of the pilot to give better room to paddle. 
 - The pilot has to sit almost in the very middle of the kayak with their feet in the tip for the kayak to float level in the water. There is room for improvement! We consider a more almond shaped design for version 3.0 with a wider back and narrow front. 
+- [We have taped up the open edges of the sheet with silver-tape.](Images/taped.jpg) It can give it around 10 liters of trapped air for lift in an emergency and reduce cuts and scrapes. Especially on the sides of the cockpit.
 
 ## Version 2.2
 
