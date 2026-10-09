@@ -250,7 +250,7 @@ Invented by [Aslag Guttormsgaard](https://www.instagram.com/aslagsbrettekajakk/)
 
 This is the drawing for version 2.0. Changes from the previous version is that it has the added railing to rest your hands on. Don't mind that the text in the drawing says model 3.
 
-[Drawing for version 2.0](./Drawings/Aslag_Kajakk_modell_2.pdf)
+[Drawing for version 2.0](./Drawings/Aslag_Kajakk_modell_2.pdf) "MODELL 3"
 
 #### Version 1.0 
 

@@ -2,14 +2,15 @@
 
 The goal is to be able to use a large CNC machine to automate the creasing of polypropylene sheets when [folding kayaks.](./README.md)
 
-![](Images/autocrease_double.jpg)
+![Successful autocrease test, linear 1 axis](Images/autocrease_double.jpg)
 
 Successfull test at [Bitraf](https://bitraf.no/)!
 
 Sheet used: [Akyprint smooth 3.3mm 900g/m from VINK](https://vink.no/media/import/NO_Akyprint_Brosjyre.pdf) with a Ø16mm free rolling ball driven at a fixed height, no heat needed.
 
-[Youtube short, autocrease test](https://youtube.com/shorts/zlMBDUQS9Cw)
+Verified double crease line center-center spacing 6.7mm with a 3.3 mm thich sheet. Gives better result than the picture above.
 
+[Youtube short, autocrease test](https://youtube.com/shorts/zlMBDUQS9Cw)
 
 ## BOM
 - Adapter for creasing ball [Fusion360](https://a360.co/4yF22JU) or [STL-file for printing](3D-print-STL/Adapter.stl)
@@ -35,6 +36,6 @@ The spring pin was not smooth enought when exposed to sideways forces.
 
 ![First prototype](./Images/autocrease/autocreaser.jpg)
 
-- Ø8mm Steel spring pin QB515-SH, M16 [Aliexpress](https://www.aliexpress.com/item/1005006329455989.html)
+- Ø8mm Steel spring pin QB515-SH, M16 from [Aliexpress](https://www.aliexpress.com/item/1005006329455989.html)
 
 ![Spring pin force](./Images/autocrease/table.jpg)
