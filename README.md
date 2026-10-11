@@ -59,7 +59,7 @@ We have made make 5 kayaks out of 8 sheets of polypropylene. Updated 09.102.2026
 | 8     |Seats for 4-5 v2.3| Done |
 | 9     | Spare| Planned autocrease experiment  |
 
-Sheet 9 will be used to test the [autocreaser](autocreaser.md) 
+Sheet 9 will be used to test the [autocreaser](research.md#-autocreaser) 
 
 ## How to make folded kayaks
 
@@ -97,64 +97,20 @@ Making the Kayaks:
 6. Drill the holes for the screws
 8. Use the screws and nuts with the 3D printed lock washers to assemble the whole kayak
 
-# Research
-
-- A sheet metal model was developed, see [tests for establishing k-value and new approximated sheetmetal model](sheet_metal_theory.md)
-- An [auto-creasing tool](autocreaser.md) is being developed.
-- Test alternative sheets designs to the channeled one
-
-
-## Alternative sheet test
-
-- [Akyprint smooth 3.3mm 900g/m from VINK](https://vink.no/media/import/NO_Akyprint_Brosjyre.pdf), works great in small scale test!
-
-![Standard heat crease and demo cut](Images/akyprint900.jpg)
-
-[See autocreaser for more tests](autocreaser.md)
-
-## Todo
-
-- Test [autocreaser](autocreaser.md) in CNC
-- Test out low seats with backs like [Falkeberg Ground Chair](./Images/ground_chair.JPG)
-- Develop version 3.0 of the folding kayak 
-
-## Version 3 - Under development
-
-Change log
-- Introduces more angles to the first pack up lines, makes a rounder more complex shape. 
-
-Next step:
-- Make new paper tests 
-
-Only tested in paper.
-
-![Version 3 kayak](Images/kayak_folded_a4_v3.jpg)
-
-- [PDF drawing for A4 models](Drawings/V3_1Oct_double_top.pdf)
-
-![Version 3 kayak](Images/v3_simple.jpg)
-
-- [3D-model, web view](https://a360.co/4iS6Kz8) Including a comparison with v2 and a righting arm analysis setup
-
-![Version 3 kayak](Fusion360/RightingArmSweep_v2_v3_solo_microbootlegger.png)
-
-Righting arm vs Heel angle plot for different loads. Centre of gravity 254mm (10in = standard pilot assumption) + 30mm (assumed seat height) above keel.
-
-- [Graph data CSV](Fusion360/TestData_v3_comp.csv)
-- [Graph data Excel](Fusion360/RightingArmSweep_cleaned_plotted.xlsx)
-- [Kayak stability therory](https://guillemot-kayaks.com/kayak-stability)
-- [Solo Microbootlegger kayak](https://guillemot-kayaks.com/catalog/strip-built/recreational-kayak-solo/solo-microbootlegger) used as comparision
-
-![Version 3 kayak](Fusion360/Righting_moment_v3.png)
-
-- [DXF pattern](Drawings/Simple_pattern_v3_top_lines.dxf)
-
-
 # Version history and test log
+
+# Version 3
+
+In development, see [research.](research.md#research)
 
 ## Version 2.4
 
-Not tested on paper, looks ok in old cad model that I don't trust completely.
+### Change log 
+- The front is shorter to accomodate better pack up lines, also increases stability
+- It's 50mm wider and 25mm lower than 2.3, making it more stable.
+
+Status
+- Not tested on paper or practice, looks ok in old cad model that I don't trust completely.
 
 [DXF for autocrease](Drawings/dxf-main_v2.4.dxf)
 
@@ -166,15 +122,9 @@ Double crease all double folds:
 - Consider double folding armrests
 - If time, test wider armrests
 
-
-### Change log 
-- The front is shorter to accomodate better pack up lines, also increases stability
-- It's 50mm wider and 25mm lower than 2.3, making it more stable.
-
-
 ## Version 2.3
 
-We made one or two of this main body but had seat inlays from v2.2, so no full v2.3 exist.
+We made one or two of this main body but had seat inlays from v2.2, so no full v2.3 have been built yet.
 
  These tweaks aim to stiffen the kayak further and avoid the innvards collapses. 
  
