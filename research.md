@@ -6,8 +6,8 @@
 - Develop [version 3](#version-3), a new "higher poly count" look of the folding kayak
 - Test out low seats with backs like [Falkeberg Ground Chair](./Images/ground_chair.JPG)
 
-## Previous research
-- [Stability- or Righting arm-analysis tools for Fusion360](FusionAddinns.md)
+## Finished research
+- [Stability- and Righting arm-analysis tools for Fusion360](FusionAddinns.md)
 - [A sheet metal approximation](sheet_metal_theory.md#motivation)
 
 # Alternative sheet test
@@ -62,20 +62,6 @@ The spring pin was not smooth enought when exposed to sideways forces.
 - Ø8mm Steel spring pin QB515-SH, M16 from [Aliexpress](https://www.aliexpress.com/item/1005006329455989.html)
 
 ![Spring pin force](./Images/autocrease/table.jpg)
-
-# Kayak stability
-
-We refer to the excelent [Kayak stability therory](https://guillemot-kayaks.com/kayak-stability) guide on Guillemot Kayaks created by Nick Schade. 
-
-Using this as a basis for understanding kayak stability two add-inns for the Computer Aided Design software Fusion360 were developed with the help of built in AI. 
-
-![Fusion360 AddInns and graph](Images/add-inns_fusion.jpg)
-
-
-### Downloads
-- [Example file Add-inn_example.f3d](Add-inn_example.f3d)
-- [Fusion360 Add-inn RightingArmSweep, requires MassGoalSeekSolver](./Fusion360/RightingArmSweep/RightingArmSweep.zip)
-- [Fusion360 Add-inn MassGoalSeekSolver](./Fusion360/MassGoalSeekSolver/MassGoalSeekSolver.zip)
 
 # Version 3 
 

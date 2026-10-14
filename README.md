@@ -43,6 +43,8 @@ We are working out of the shared workshop [Fellesverkstedet](https://www.fellesv
 
 We are also making use of Norways biggest Makerspace: [Bitraf](https://bitraf.no/), for 3D -printing the fasteners.
 
+[See our research page for more!](research.md)
+
 ### Production log 
 
 We have made make 5 kayaks out of 8 sheets of polypropylene. Updated 09.102.2026
