@@ -7,7 +7,7 @@
 - Test out low seats with backs like [Falkeberg Ground Chair](./Images/ground_chair.JPG)
 
 ## Finished research
-- [Stability- and Righting arm-analysis tools for Fusion360](FusionAddinns.md)
+- [Stability- and Righting arm-analysis tools for Fusion360](/Fusion360/FusionAddinns.md)
 - [A sheet metal approximation](sheet_metal_theory.md#motivation)
 
 # Alternative sheet test
