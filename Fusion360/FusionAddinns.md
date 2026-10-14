@@ -8,8 +8,8 @@ Using this as a basis for understanding kayak stability two add-inns for the Com
 
 ### Downloads
 - [Example file Add-inn_example.f3d](Add-inn_example.f3d)
-- [Fusion360 Add-inn RightingArmSweep, requires MassGoalSeekSolver](RightingArmSweep/RightingArmSweep.zip)
-- [Fusion360 Add-inn MassGoalSeekSolver](MassGoalSeekSolver/MassGoalSeekSolver.zip)
+- [Fusion360 Add-inn RightingArmSweep, requires MassGoalSeekSolver](/Fusion360/RightingArmSweep/RightingArmSweep.zip)
+- [Fusion360 Add-inn MassGoalSeekSolver](/Fusion360/MassGoalSeekSolver/MassGoalSeekSolver.zip)
 
 ## Overview
 
