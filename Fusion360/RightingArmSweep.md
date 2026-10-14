@@ -5,7 +5,7 @@ re-solving a mass target at each step (via the **Mass Goal Seek** add-in), and
 logs a resulting world-space measurement to a CSV file — built for generating
 righting-arm (or similar) curves for boat hull analysis.
 
-## ⚠️ Requires Mass Goal Seek
+##  Requires Mass Goal Seek
 
 **This add-in depends on `MassGoalSeekSolver` and will not function without it.**
 

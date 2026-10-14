@@ -1,15 +1,16 @@
 # Research
 
-Ongoing areas of research for the [folding kayak project](README.md#folding-kayak).
+## Ongoing areas of research for the [folding kayak project](README.md#folding-kayak).
 - An [autocreaser](#autocreaser) is being developed.
 - Tests of [alternative sheets type](#alternative-sheet-test) to the channeled one
 - Develop [version 3](#version-3), a new "higher poly count" look of the folding kayak
 - Test out low seats with backs like [Falkeberg Ground Chair](./Images/ground_chair.JPG)
 
-Previous research
-- A sheet metal model was developed, see own page: [tests for establishing k-value and new approximated sheetmetal model](sheet_metal_theory.md#motivation)
+## Previous research
+- Stability- or Righting arm-analysis
+- [A sheet metal approximation](sheet_metal_theory.md#motivation)
 
-## Alternative sheet test
+# Alternative sheet test
 
 - [Akyprint smooth 3.3mm 900g/m from VINK](https://vink.no/media/import/NO_Akyprint_Brosjyre.pdf), works great in small scale test!
 
@@ -45,7 +46,6 @@ When printed in PLA with 12 perimeters (acts as 100% infill) it could withstand 
 
 ![Destructive test](Images/scale_test.jpg)
 
-
 ## Working principle 
 
 - Mount Ø16mm ball with Ø12mm adapter in spindle collet on shopbot CNC
@@ -62,6 +62,20 @@ The spring pin was not smooth enought when exposed to sideways forces.
 - Ø8mm Steel spring pin QB515-SH, M16 from [Aliexpress](https://www.aliexpress.com/item/1005006329455989.html)
 
 ![Spring pin force](./Images/autocrease/table.jpg)
+
+# Kayak stability
+
+We refer to the excelent [Kayak stability therory](https://guillemot-kayaks.com/kayak-stability) guide on Guillemot Kayaks created by Nick Schade. 
+
+Using this as a basis for understanding kayak stability two add-inns for the Computer Aided Design software Fusion360 were developed with the help of built in AI. 
+
+![Fusion360 AddInns and graph](Images/add-inns_fusion.jpg)
+
+
+### Downloads
+- [Example file Add-inn_example.f3d](Add-inn_example.f3d)
+- [Fusion360 Add-inn RightingArmSweep, requires MassGoalSeekSolver](./Fusion360/RightingArmSweep/RightingArmSweep.zip)
+- [Fusion360 Add-inn MassGoalSeekSolver](./Fusion360/MassGoalSeekSolver/MassGoalSeekSolver.zip)
 
 # Version 3 
 
@@ -89,10 +103,8 @@ Righting arm vs Heel angle plot for different loads. Centre of gravity 254mm (10
 
 - [Graph data CSV](Fusion360/TestData_v3_comp.csv)
 - [Graph data Excel](Fusion360/RightingArmSweep_cleaned_plotted.xlsx)
-- [Kayak stability therory](https://guillemot-kayaks.com/kayak-stability)
 - [Solo Microbootlegger kayak](https://guillemot-kayaks.com/catalog/strip-built/recreational-kayak-solo/solo-microbootlegger) used as comparision
-- [Fusion360 Add in RightingArmSweep, requires MassGoalSeekSolver](./Fusion360/RightingArmSweep/RightingArmSweep.zip)
-- [Fusion360 Add in MassGoalSeekSolver](./Fusion360/MassGoalSeekSolver/MassGoalSeekSolver.zip)
+
 ![Version 3 kayak](Fusion360/Righting_moment_v3.png)
 
 - [DXF pattern](Drawings/Simple_pattern_v3_top_lines.dxf)

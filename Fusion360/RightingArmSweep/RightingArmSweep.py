@@ -217,15 +217,19 @@ class CommandCreatedHandler(adsk.core.CommandCreatedEventHandler):
                 if p:
                     unit_label = p.unit
 
+            # NOTE: CommandInput.name is READ-ONLY in this API version â it can only be
+            # set at creation time, not updated later. Unit info is shown via a separate
+            # read-only text box (updated on dropdown change) instead of renaming inputs.
+            inputs.addTextBoxCommandInput(
+                'unitsInfo', 'Units', f'Units: {unit_label}' if unit_label else 'Units: (unitless)',
+                1, True)
+
             inputs.addValueInput(
-                'startValue', f'Start ({unit_label})' if unit_label else 'Start',
-                '', adsk.core.ValueInput.createByReal(user_defaults['start']))
+                'startValue', 'Start', '', adsk.core.ValueInput.createByReal(user_defaults['start']))
             inputs.addValueInput(
-                'endValue', f'End ({unit_label})' if unit_label else 'End',
-                '', adsk.core.ValueInput.createByReal(user_defaults['end']))
+                'endValue', 'End', '', adsk.core.ValueInput.createByReal(user_defaults['end']))
             inputs.addValueInput(
-                'stepValue', f'Step ({unit_label})' if unit_label else 'Step',
-                '', adsk.core.ValueInput.createByReal(user_defaults['step']))
+                'stepValue', 'Step', '', adsk.core.ValueInput.createByReal(user_defaults['step']))
 
             inputs.addStringValueInput('runLabel', 'Run Label', user_defaults['label'])
 
@@ -264,12 +268,9 @@ class CommandInputChangedHandler(adsk.core.InputChangedEventHandler):
                     p = mgs._get_parameter(design, sel)
                     if p:
                         unit_label = p.unit
-                start_in = inputs.itemById('startValue')
-                end_in = inputs.itemById('endValue')
-                step_in = inputs.itemById('stepValue')
-                start_in.name = f'Start ({unit_label})' if unit_label else 'Start'
-                end_in.name = f'End ({unit_label})' if unit_label else 'End'
-                step_in.name = f'Step ({unit_label})' if unit_label else 'Step'
+                units_box = adsk.core.TextBoxCommandInput.cast(inputs.itemById('unitsInfo'))
+                if units_box:
+                    units_box.text = f'Units: {unit_label}' if unit_label else 'Units: (unitless)'
 
             elif changed.id == 'browseCsv':
                 browse_input = adsk.core.BoolValueCommandInput.cast(changed)
@@ -344,8 +345,6 @@ class CommandExecuteHandler(adsk.core.CommandEventHandler):
                     return um.evaluateExpression(f'{display_value} {param_unit}', param_unit)
                 return display_value
 
-            # Capture the sweep parameter's value BEFORE the sweep so it can be restored after,
-            # regardless of whether the sweep completes normally or is cancelled partway through.
             initial_internal_value = sweep_param.value
 
             mgs_doc_defaults = mgs._load_doc_defaults(design)
@@ -409,8 +408,6 @@ class CommandExecuteHandler(adsk.core.CommandEventHandler):
             progress.progressValue = n_steps
             progress.hide()
 
-            # Restore the sweep parameter to its pre-sweep value, whether the sweep
-            # completed normally or was cancelled partway through.
             sweep_param.value = initial_internal_value
             design.computeAll()
 
