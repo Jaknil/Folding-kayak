@@ -1,29 +1,34 @@
-# Fusion360 Add-inns
+# Calculating staiblity using new tools for Fusion360
 
-Two Fusion 360 add-ins, jump to:
+We refer to the excelent [Kayak stability therory](https://guillemot-kayaks.com/kayak-stability) guide on Guillemot Kayaks created by Nick Schade. 
+
+Using this as a basis for understanding kayak stability two add-inns for the Computer Aided Design software Fusion360 were developed with the help of its built in AI. 
+
+![Fusion360 AddInns and graph](add-inns_fusion.jpg)
+
+### Downloads
+- [Example file Add-inn_example.f3d](Add-inn_example.f3d)
+- [Fusion360 Add-inn RightingArmSweep, requires MassGoalSeekSolver](/RightingArmSweep/RightingArmSweep.zip)
+- [Fusion360 Add-inn MassGoalSeekSolver](/MassGoalSeekSolver/MassGoalSeekSolver.zip)
+
+## Overview
 
 - [Mass Goal Seek](#mass-goal-seek) that automatically adjusts a chosen parameter until a chosen
 body reaches a target mass, using an iterative secant-method solver. Built to automate finding out how deep a loaded boat hull sits in the water.
 
 ![How it looks in Fusion](MassGoalSeekSolver.jpg)
 
-And
 - [Righting Arm Sweep](#righting-arm-sweep) A Fusion 360 add-in that sweeps a chosen parameter across a range of values, re-solving a mass target at each step (via the Mass Goal Seek add-in), and logs a resulting world-space measurement to a CSV file — built for generating righting-arm curves for boat hull analysis.
 
 ![How it looks in Fusion](rightingarmsweep.jpg)
 
-Example plots of output data:
+- Example plots of output data:
 
 ![Excel plot](RightingArmSweep_v2_v3_solo_microbootlegger.png)
 
 Used in the [folding kayaks project](./README.md)
 
 Developed by Jakob Rockenberger using Autodesk assistant in 2026.
-
-### Downloads
-- [Example file Add-inn_example.f3d](Add-inn_example.f3d)
-- [Fusion360 Add-inn MassGoalSeekSolver](./Fusion360/MassGoalSeekSolver/MassGoalSeekSolver.zip)
-- Optional: [Fusion360 Add-inn RightingArmSweep, requires MassGoalSeekSolver](./Fusion360/RightingArmSweep/RightingArmSweep.zip)
 
 ## Example use case from the [folding kayaks project](./README.md)
 
@@ -180,7 +185,7 @@ When the sweep finishes, results are merged into the CSV as a new column.
 3. In Fusion: **Utilities → Add-Ins → Scripts and Add-Ins** (`Shift+S`), add
    the `RightingArmSweep` folder under **My Add-Ins**, select it, and click
    **Run**.
-4. The command appears as **Righting Arm Sweep** under the Solid tab's
+4. The command appears as **Righting Arm Sweep** under the Utilites tab's
    Add-Ins panel.
 
 ## Dialog inputs
@@ -250,3 +255,8 @@ override them.
 - Large sweeps (many points, each requiring several solver iterations) can
   take a noticeable amount of time — the progress dialog's Cancel button is
   there for exactly this case.
+
+
+Back to 
+- [Folding kayaks project README](./README.md)
+- [Folding kayaks project Research](./research.md)

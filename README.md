@@ -61,6 +61,8 @@ We have made make 5 kayaks out of 8 sheets of polypropylene. Updated 09.102.2026
 
 Sheet 9 will be used to test the [autocreaser](research.md#-autocreaser) 
 
+We are still researching improvements and developing new versions. See our [Research page](research.md#research) 
+
 ## How to make folded kayaks
 
 ![The crew working on version 2.2](./Images/workshop.jpg)
