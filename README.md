@@ -45,6 +45,10 @@ We are also making use of Norways biggest Makerspace: [Bitraf](https://bitraf.no
 
 [See our research page for more!](research.md)
 
+## Questions or comments?
+
+Reach out to us via  [github issues on this repository.](https://github.com/Jaknil/Folding-kayak/issues) 
+
 ### Production log 
 
 We have made make 5 kayaks out of 8 sheets of polypropylene. Updated 09.102.2026
