@@ -49,6 +49,10 @@ We are also making use of Norways biggest Makerspace: [Bitraf](https://bitraf.no
 
 We have made make 5 kayaks out of 8 sheets of polypropylene. Updated 09.102.2026
 
+Aslag has made at least two previously.
+
+If you make one, please tell us about it using gihub issues! 
+
 | Sheet | Use | Status |
 | ----- | --- | ------ |
 | 1     |Seat for Kayak 1 + test| Done |
@@ -70,7 +74,10 @@ We are still researching improvements and developing new versions. See our [Rese
 ![The crew working on version 2.2](./Images/workshop.jpg)
 
 ### Bill of materials, per kayak:
-- 1.5pcs of 2440mm x 1220mm fluted / internally corrugated polypropylene sheet - 4mm thickness 700g/m^2 - 1.5pcs / Kayakk ([Antalis supplier](https://www.antalis.no/eshop/medier-og-utstyr-for-visuell-kommunikasjon/plater/kanalplast-pp-pdp-hq08108/sku-694530#))
+- 1.5pcs of 2440mm x 1220mm x 4mm fluted / internally corrugated polypropylene sheet -  Suppliers: 
+    - [Antalis](https://www.antalis.no/eshop/medier-og-utstyr-for-visuell-kommunikasjon/plater/kanalplast-pp-pdp-hq08108/sku-694530#) 4mm thickness 700g/m^2. is what we used for kayaks 1 to 7. 
+    - [VINK](https://vink.no/media/import/NO_Akyprint_Brosjyre.pdf) sells Akyprint smooth 3.3mm thickness 900g/m, it has internal closed bubbles and works great in small scale test! 
+    - [GOP](https://www.gop.se/industri/industriprodukter/pp/) also sells Polypropylene sheets, both the akyprint with bubbles and channeled PP-sheets like from antalis.)
 - 14pcs of M6 hex head screws 30mm length 
 - 14pcs of M6 nuts
 - Filament for 3D printing 28 lock washers (we used PLA) 
@@ -114,13 +121,22 @@ In development, see [research.](research.md#research)
 - It's 50mm wider and 25mm lower than 2.3, making it more stable.
 
 Status
-- Not tested on paper or practice, looks ok in old cad model that I don't trust completely.
+- Tested on paper and in CAD, looks good! Ready for test in practice
+- 200 paper versions handed out on [Skaperfestivalen](https://skaperfestivalen.no/)
 
-[DXF for autocrease](Drawings/dxf-main_v2.4.dxf)
+Files
+- [DXF for autocrease](Drawings/dxf-main_v2.4.dxf)
+- [PDF for paper-printing](Drawings/Paper_kayak_v2_4.pdf)
 
-Remember to add double lines 6.7mm c-c for double folds!
+Missing files
+- PDF with dimensions, 
+    - Use the DXF and add them, print to PDF.
+- Inlay for seating area. 
+    - Consider making it "to fit" from 1/2-sheet. It's tricky getting the dimentions right in CAD.
 
-Double crease all double folds:
+#### Autocrease notes
+Remember to add double lines! 6.7mm c-c for double folds!
+- Double crease all double folds:
 - All pack up lines except the double ones in the middle
 - All backside lines (4 flaps on sides and 2 on the points)
 - Consider double folding armrests
