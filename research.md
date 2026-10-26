@@ -10,11 +10,35 @@
 - [Stability- and Righting arm-analysis tools for Fusion360](/Fusion360/FusionAddinns.md)
 - [A sheet metal approximation](sheet_metal_theory.md#motivation)
 
-# Alternative sheet test
+# Sheet materials
 
+The only material we have full size tests of so far is channeled 4mm thickness 700g/m^2 polypropylene. Supplied by [Antalis](https://www.antalis.no/eshop/medier-og-utstyr-for-visuell-kommunikasjon/plater/kanalplast-pp-pdp-hq08108/sku-694530#)
+
+## Alternative sheet tests
 - [Akyprint smooth 3.3mm 900g/m from VINK](https://vink.no/media/import/NO_Akyprint_Brosjyre.pdf), works great in small scale test!
-
 ![Standard heat crease and demo cut](Images/akyprint900.jpg)
+
+Worked great with the [autocreaser](#autocreaser), more pics there.
+
+## Untesteded, potential sheets 
+- Akylite 600g/m^2 2.9 mm med bobler. Possibly too thin and weak. Suppliers:
+    - [VINK](https://vink.no/nettbutikk/plater/lettvektsplater.html?cat=14930)
+    - [GOP](https://www.gop.se/no/industri/industriprodukter/pp-no/akylite/) 
+- AKYPRINT® UV 4 mm 1300 gr/m² 
+    - [GOP](https://www.gop.se/no/industri/industriprodukter/pp-no/)
+    - [VINK](https://vink.no/akyprint-akylite/)
+
+- Akyboard D4 3.5 mm 1000 g/m² or
+Akyboard® D4 4 mm 1500 g/m² 
+    - [GOP](https://www.gop.se/no/industri/industriprodukter/pp-no/akyboard/)
+
+[Akyboard D4 bubble/hex structure brochure](https://www.sunclear.fr/img/medias/bt/POLYPROPYLENE_ALVEOLAIRE__AKYDRIVE_FLOORING_fiche_technique_240821.pdf) *looks to have tightly packed bubbles/hexes*
+    
+All Aky**** sheets are being renamed Akyboard by the manufacturer [Corplex](https://corplex.com/industries/display/)    
+- AkyBoard® Print (formerly AkyPrint®)
+- AkyBoard® Print Lite panels (formerly AkyLite®)
+
+See also [Corplex info page](https://corplex.com/plastic-sheets/bubble/)
 
 # Autocreaser
 
