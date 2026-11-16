@@ -1,5 +1,7 @@
 # Folding-kayak
 
+Browse in full screen on the Githup-pages version of this page: [https://jaknil.github.io/Folding-kayak](https://jaknil.github.io/Folding-kayak)
+
 Build logs and instructions for making your folded origami kayaks from sheet of polypropylene plastic sheets. Original concept invented by [Aslag Guttormsgaard:](https://www.instagram.com/aslagsbrettekajakk/)
 
 ![Aslag Guttormsgaard at Oslo Maker festival Deichman 2025, image from aslagsbrettekajakk on Instagram](./Images/Aslag_Maker_festival.jpg)![Aslag Guttormsgaard on Koster, image from aslagsbrettekajakk on Instagram](./Images/Aslag_test.jpg)
