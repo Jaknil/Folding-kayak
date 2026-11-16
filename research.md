@@ -51,6 +51,7 @@ Successfull test at [Bitraf](https://bitraf.no/)!
 Sheet used: [Akyprint smooth 3.3mm 900g/m from VINK](https://vink.no/media/import/NO_Akyprint_Brosjyre.pdf) with a Ø16mm free rolling ball driven at a fixed height, no heat needed.
 
 Verified double crease line center-center spacing 6.7mm with a 3.3 mm thich sheet. Gives better result than the picture above.
+[![Autocreaser video](Images/autocrease/autocreaser_test.jpg)](https://youtube.com/shorts/zlMBDUQS9Cw)
 
 [Youtube short, autocrease test](https://youtube.com/shorts/zlMBDUQS9Cw)
 
