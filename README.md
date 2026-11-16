@@ -91,7 +91,7 @@ We are still researching improvements and developing new versions. See our [Rese
 - 3D-printer for printing lock washers
 - Exacto knife for cutting plastic
 - A pen and a ruler or a large CNC for marking the sheets
-- Hot air gun, preferably one that can be set to 150C
+- [Hot air gun](https://www.clasohlson.com/no/Cocraft-HH-2000-E-varmluftpistol-/p/40-8762), preferably one that can be set to 150C
 - Hand held roller, Ø5-10mm wide ca Ø30mm diameter. Can be laser cut, 3D-printed or made from scrap. [Rihno files](Lasercut-creasing-tool/CreasingToolv1.3dm)
 - Handheld drill and a Ø6-7mm drill bit
 
